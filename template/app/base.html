@@ -1,0 +1,16 @@
+<!DOCTYPE html> {% load static %}
+<title>{% block title %} {% endblock title %}</title>
+<html>
+
+<head>
+
+    <body>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">about</a></li>
+        </ul>
+        {% block content %} {% endblock content %}
+    </body>
+</head>
+
+</html>
