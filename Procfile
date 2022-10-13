@@ -1,1 +1,1 @@
-web:gunicorn templateinclude.wsgi
+web:gunicorn templateinclude.wsgi:application

@@ -8,3 +8,4 @@ sqlparse==0.4.3
 tzdata==2022.4
 waitress==2.1.2
 whitenoise==6.2.0
+python==3.10.6
